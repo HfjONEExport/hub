@@ -93,9 +93,14 @@ body{
     background-color: white;
 }
 span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-content: center;
     color: #dac;
     width: 100%;
-    text-align: center;
     background-color: white;
     padding-block: 10px;
     font-size: 5vh;
@@ -104,4 +109,24 @@ span{
     width: 50vw;
     height: auto;
     background-color: white;
+}
+.rating{
+    background-color: transparent;
+    height: 5vh;
+    width: 15vh;
+    margin: 0;
+    margin-left: 2vh;
+    background-size: contain;
+}
+#r0{
+    background-image: url(./ratings/r0.png);
+}
+#r1{
+    background-image: url(./ratings/r1.png);
+}
+#r2{
+    background-image: url(./ratings/r2.png);
+}
+#r3{
+    background-image: url(./ratings/r3.png);
 }
