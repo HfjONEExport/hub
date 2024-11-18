@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'hub';
+    src: url(Tiger\ Chest.otf);
+}
+body{
+    margin: 0;
+    background: linear-gradient(180deg, #dca, #dac);
+    color: white;
+    font-family: 'hub';
+    user-select: none;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-content: center;
+    padding: 2vw;
+}
+/*Buttons*/
+.back{
+    position: absolute;
+    left: 1vh;
+    top: 1vh;
+    width: 4vh;
+    height: 4vh;
+    font-size: 5vh;
+    border: 10px white solid;
+    border-radius: 2vh;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-content: center;
+    background-color: transparent;
+}
+.back:hover{
+    background-color: white;
+    color: #dac;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-content: center;
+    gap: 10px;
+}
+.button{
+    font-size: 10vh;
+    padding-inline: 3vh;
+    padding-block: 1vh;
+    border: 10px white solid;
+    border-radius: 5vh;
+    width: fit-content;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: white;
+    color: #dac;
+}
+/*Flags*/
+.flags{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-content: center;
+    gap: 2vw;
+}
+.flag{
+    width: 35vw;
+    height: auto;
+    background-color: white;
+    border: 10px white solid;
+    border-radius: 5vw;
+}
+/*Cards*/
+.card{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-content: center;
+    border: white solid 10px;
+    border-radius: 5vw;
+    overflow: hidden;
+    background-color: white;
+}
+span{
+    color: #dac;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    padding-block: 10px;
+    font-size: 5vh;
+}
+.img{
+    width: 50vw;
+    height: auto;
+    background-color: white;
+}
