@@ -16,9 +16,8 @@ body{
     padding: 2vw;
 }
 /*Buttons*/
-.back{
+.small{
     position: absolute;
-    left: 1vh;
     top: 1vh;
     width: 4vh;
     height: 4vh;
@@ -33,9 +32,22 @@ body{
     justify-content: center;
     background-color: transparent;
 }
-.back:hover{
+.small:hover{
     background-color: white;
     color: #dac;
+}
+.back{
+    left: 1vh;
+}
+.info{
+    right: 1vh;
+}
+.info:hover~.hide{
+    display: none;
+    
+}
+.info:hover~.block{
+    display: block;
 }
 .container1{
     display: flex;
@@ -69,6 +81,10 @@ body{
 .button:hover{
     background-color: white;
     color: #dac;
+}
+/*Hidden*/
+.block{
+    display: none;
 }
 /*Flags*/
 .flags{
