@@ -85,6 +85,12 @@ body{
 /*Hidden*/
 .block{
     display: none;
+    font-size: 10vh;
+    padding-inline: 3vh;
+    padding-block: 1vh;
+    border: 10px white solid;
+    border-radius: 5vh;
+    width: fit-content;
 }
 /*Flags*/
 .flags{
