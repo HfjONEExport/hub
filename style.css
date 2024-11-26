@@ -77,6 +77,7 @@ body{
     border-radius: 5vh;
     width: fit-content;
     cursor: pointer;
+    text-align: center;
 }
 .button:hover{
     background-color: white;
@@ -91,6 +92,7 @@ body{
     border: 10px white solid;
     border-radius: 5vh;
     width: fit-content;
+    text-align: center;
 }
 /*Flags*/
 .flags{
