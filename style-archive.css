@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'hub';
-    src: url(Monaco.ttf);
+    src: url(Tiger\ Chest.otf);
 }
 body{
     margin: 0;
-    background-color: black;
+    background: linear-gradient(180deg, #dca, #dac);
     color: white;
     font-family: 'hub';
     user-select: none;
@@ -19,10 +19,11 @@ body{
 .small{
     position: absolute;
     top: 1vh;
-    width: 5vh;
-    height: 5vh;
+    width: 4vh;
+    height: 4vh;
     font-size: 5vh;
-    border: 5px white solid;
+    border: 10px white solid;
+    border-radius: 2vh;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -33,7 +34,7 @@ body{
 }
 .small:hover{
     background-color: white;
-    color: black;
+    color: #dac;
 }
 .back{
     left: 1vh;
@@ -66,13 +67,14 @@ body{
     padding-inline: 3vh;
     padding-block: 1vh;
     border: 10px white solid;
+    border-radius: 5vh;
     width: fit-content;
     cursor: pointer;
     text-align: center;
 }
 .button:hover{
     background-color: white;
-    color: black;
+    color: #dac;
 }
 /*Hidden*/
 .block{
@@ -81,6 +83,7 @@ body{
     padding-inline: 3vh;
     padding-block: 1vh;
     border: 10px white solid;
+    border-radius: 5vh;
     width: fit-content;
     text-align: center;
 }
@@ -106,6 +109,7 @@ body{
     height: auto;
     background-color: white;
     border: 10px white solid;
+    border-radius: 5vw;
 }
 /*Cards*/
 .card{
@@ -118,6 +122,7 @@ body{
     justify-items: center;
     justify-content: center;
     border: white solid 10px;
+    border-radius: 5vw;
     overflow: hidden;
     background-color: white;
 }
@@ -128,7 +133,7 @@ span{
     align-content: center;
     justify-items: center;
     justify-content: center;
-    color: black;
+    color: #dac;
     width: 100%;
     background-color: white;
     padding-block: 15px;
