@@ -18,10 +18,10 @@ body{
 /*Buttons*/
 .small{
     position: absolute;
-    top: 1vh;
-    width: 5vh;
-    height: 5vh;
-    font-size: 5vh;
+    top: 1.5vh;
+    width: 3vh;
+    height: 3vh;
+    font-size: 3vh;
     border: 5px white solid;
     cursor: pointer;
     display: flex;
@@ -36,10 +36,10 @@ body{
     color: black;
 }
 .back{
-    left: 1vh;
+    left: 1.5vh;
 }
 .info{
-    right: 1vh;
+    right: 1.5vh;
 }
 .container1{
     display: flex;
@@ -62,10 +62,10 @@ body{
 }
 
 .button{
-    font-size: 10vh;
+    font-size: 5vh;
     padding-inline: 3vh;
     padding-block: 1vh;
-    border: 10px white solid;
+    border: 5px white solid;
     width: fit-content;
     cursor: pointer;
     text-align: center;
@@ -80,7 +80,7 @@ body{
     font-size: 10vh;
     padding-inline: 3vh;
     padding-block: 1vh;
-    border: 10px white solid;
+    border: 5px white solid;
     width: fit-content;
     text-align: center;
 }
@@ -105,7 +105,7 @@ body{
     width: 35vw;
     height: auto;
     background-color: white;
-    border: 10px white solid;
+    border: 5px white solid;
 }
 /*Cards*/
 .card{
@@ -117,7 +117,7 @@ body{
     align-content: center;
     justify-items: center;
     justify-content: center;
-    border: white solid 10px;
+    border: white solid 5px;
     overflow: hidden;
     background-color: white;
 }
@@ -142,7 +142,7 @@ span{
 .rating{
     background-color: transparent;
     height: 1.5vh;
-    width: 4.5vh;
+    width: 100%;
     margin: 0;
     font-size: 2vh;
     text-align: center;
