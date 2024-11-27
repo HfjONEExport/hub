@@ -14,3 +14,10 @@ function Back(){
 function ErraticGender(){
     window.open('https://rentry.co/erraticgender')
 }
+
+function Box(){
+    window.open('https://toyhou.se/30358965.selfship-art/30359039.box/gallery')
+}
+function Razor(){
+    window.open('https://toyhou.se/30358965.selfship-art/30359749.razor/gallery')
+}
