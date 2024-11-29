@@ -131,7 +131,7 @@ span{
     color: black;
     width: 100%;
     background-color: white;
-    padding-block: 15px;
+    padding-block-start: 15px;
     font-size: 4vh;
 }
 .img{
@@ -141,9 +141,9 @@ span{
 }
 .rating{
     background-color: transparent;
-    height: 1.5vh;
     width: 100%;
     margin: 0;
     font-size: 2vh;
     text-align: center;
+    padding-block-end: 15px;
 }
