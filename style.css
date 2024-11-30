@@ -15,6 +15,9 @@ body{
     justify-content: center;
     padding: 4vw;
 }
+img{
+    width: 20vw;
+}
 /*Buttons*/
 .small{
     position: absolute;
@@ -131,7 +134,7 @@ span{
     width: 100%;
     background-color: white;
     padding-block-start: 15px;
-    font-size: 3vh;
+    font-size: 3vw;
 }
 .img{
     height: auto;
@@ -141,7 +144,7 @@ span{
     background-color: transparent;
     width: 100%;
     margin: 0;
-    font-size: 2vh;
+    font-size: 2vw;
     text-align: center;
     padding-block-end: 15px;
 }
