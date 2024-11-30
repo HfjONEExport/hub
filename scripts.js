@@ -29,9 +29,11 @@ function loadCSS(href){
     link.href = href;
     document.head.appendChild(link);
 }
-if (typeof screen.orientation !== 'undefined') {
-    loadCSS('style.css')
-}
-else {
-    loadCSS('style-mobile.css')
+function Detect(){
+    if (typeof screen.orientation !== 'undefined') {
+        loadCSS('/hub/style.css')
+    }
+    else {
+        loadCSS('/hub/style-mobile.css')
+    }
 }
