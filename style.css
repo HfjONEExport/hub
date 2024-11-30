@@ -80,12 +80,13 @@ img{
 /*Hidden*/
 .block{
     display: none;
-    font-size: 10vh;
+    font-size: 5vh;
     padding-inline: 3vh;
     padding-block: 1vh;
     border: 5px white solid;
     width: fit-content;
     text-align: center;
+    text-wrap: wrap;
 }
 .info:hover~.hide{
     display: none;
