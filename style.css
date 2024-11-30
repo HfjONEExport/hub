@@ -15,9 +15,6 @@ body{
     justify-content: center;
     padding: 4vw;
 }
-img{
-    width: 20vw;
-}
 /*Buttons*/
 .small{
     position: absolute;
