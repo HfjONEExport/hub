@@ -31,10 +31,10 @@ function loadCSS(href){
 };
 function Detect(){
     const isMobile = navigator.userAgentData.mobile;
-    if (isMobile){
-        loadCSS('/hub/style-mobile.css')
+    if (!isMobile){
+        loadCSS('/hub/style-pc.css')
     }
     else {
-        loadCSS('/hub/style-pc.css')
+        loadCSS('/hub/style-mobile.css')
     };
 };
