@@ -13,7 +13,7 @@ body{
     align-content: center;
     justify-content: center;
     justify-content: center;
-    padding: 7vh;
+    padding-block: 7vh;
 }
 /*Buttons*/
 .small{
