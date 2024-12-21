@@ -22,7 +22,6 @@ function Razor(){
     window.open('https://toyhou.se/30358965.selfship-art/30359749.razor/gallery')
 };
 
-
 function Detect(){
     if (!navigator.userAgentData.mobile){
         document.getElementById("delete").remove();

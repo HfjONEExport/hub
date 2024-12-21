@@ -134,10 +134,6 @@ span{
     padding-block-start: 15px;
     font-size: 3vw;
 }
-.img{
-    height: auto;
-    background-color: white;
-}
 .rating{
     background-color: transparent;
     width: 100%;
@@ -145,4 +141,7 @@ span{
     font-size: 2vw;
     text-align: center;
     padding-block-end: 15px;
+}
+.redirect{
+    cursor: pointer;
 }
