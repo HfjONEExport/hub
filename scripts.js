@@ -31,7 +31,4 @@ function Detect(){
             'beforeend',
             '<link rel="stylesheet" href="/hub/pc.css" />');
     }
-    else {
-        document.getElementById("game").remove();
-    };
 };

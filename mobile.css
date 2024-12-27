@@ -2,3 +2,6 @@ img{
     width: 35vw;
     height: 26.25vw;
 }
+#game{
+    display: none;
+}
