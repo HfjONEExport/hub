@@ -1,3 +1,6 @@
+function Comms(){
+    window.open("/comms/","_self")
+};
 function Flags(){
     window.open("./flags/","_self")
 };
