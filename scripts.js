@@ -13,6 +13,9 @@ function Selfships(){
 function Game(){
     window.open("/halls/","_self")
 };
+function Sonas(){
+    window.open("./sonas/","_self")
+};
 
 function ErraticGender(){
     window.open('https://rentry.co/erraticgender')
