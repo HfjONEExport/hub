@@ -26,9 +26,15 @@ function Box(){
 function Razor(){
     window.open('https://toyhou.se/30358965.selfship-art/30359749.razor/gallery')
 };
+function Bryce(){
+    window.open("/hub/selfships/bryce.html","_self")
+};
 
 function Back(){
     window.open("/hub/","_self")
+};
+function Back2(){
+    window.open("/hub/selfships/","_self")
 };
 function Detect(){
     if (!navigator.userAgentData.mobile){

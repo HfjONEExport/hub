@@ -8,15 +8,15 @@
         <script src="/hub/scripts.js"></script>
     </head>
     <body onload="Detect()">
-        <div class="small back" onclick="Back()"><</div>
+        <div class="small back" onclick="Back()">&lt;</div>
         <div class="small info" onclick="Info()">i</div>
         <div class="container2 hide">
             <div class="card redirect" onclick="Box()">
-                <span>Box<div class="rating">★☆☆</div></span>
+                <span>Box<div class="rating">★★☆</div></span>
                 <img src="./images/box.png" class="img" onerror="this.src='/hub/temp.png'">
             </div>
-            <div class="card">
-                <span>Bryce<div class="rating">★★☆</div></span>
+            <div class="card redirect" onclick="Bryce()" style="cursor: pointer;">
+                <span>Bryce<div class="rating">★★★</div></span>
                 <img src="./images/bryce.png" class="img" onerror="this.src='/hub/temp.png'">
             </div>
             <div class="card">
@@ -36,7 +36,7 @@
                 <img src="./images/nickel.png" class="img" onerror="this.src='/hub/temp.png'">
             </div>
             <div class="card redirect" onclick="Razor()" style="cursor: pointer;">
-                <span>Razor<div class="rating">★☆☆</div></span>
+                <span>Razor<div class="rating">★★☆</div></span>
                 <img src="./images/razor.png" class="img" onerror="this.src='/hub/temp.png'">
             </div>
         </div>
